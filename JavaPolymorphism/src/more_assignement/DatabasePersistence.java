@@ -1,0 +1,11 @@
+package more_assignement;
+
+public class DatabasePersistence extends Persistence {
+
+	@Override
+	public void persist() {
+		System.out.println("Saved in database");
+		
+	}
+
+}
